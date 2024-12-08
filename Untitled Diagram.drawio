@@ -1,33 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="578" dy="326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1429" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="29mAoeXJ8vvFscZmVXa0-0" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="50" width="160" height="194" as="geometry" />
-        </mxCell>
-        <mxCell id="29mAoeXJ8vvFscZmVXa0-1" value="- Id : String&lt;div&gt;- Username : String&lt;/div&gt;&lt;div&gt;- profilePictureUrl : String&lt;/div&gt;&lt;div&gt;- password: String&lt;/div&gt;&lt;div&gt;- createdAt: DateTime&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="29mAoeXJ8vvFscZmVXa0-0">
-          <mxGeometry y="26" width="160" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="29mAoeXJ8vvFscZmVXa0-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="29mAoeXJ8vvFscZmVXa0-0">
-          <mxGeometry y="110" width="160" height="2" as="geometry" />
-        </mxCell>
-        <mxCell id="29mAoeXJ8vvFscZmVXa0-3" value="+ setId()&lt;div&gt;+ setUsername()&lt;/div&gt;&lt;div&gt;+ getUsername()&lt;/div&gt;&lt;div&gt;+ setprofilePictureUrl()&lt;/div&gt;&lt;div&gt;+ getprofilePictureUrl()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="29mAoeXJ8vvFscZmVXa0-0">
-          <mxGeometry y="112" width="160" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="29mAoeXJ8vvFscZmVXa0-4" value="Quesiton" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="60" width="160" height="229" as="geometry" />
-        </mxCell>
-        <mxCell id="29mAoeXJ8vvFscZmVXa0-5" value="- Id: String&lt;div&gt;- title: String&lt;/div&gt;&lt;div&gt;- body: String&lt;/div&gt;&lt;div&gt;- voteCount: int&lt;/div&gt;&lt;div&gt;- createdAt: DateTime&lt;/div&gt;&lt;div&gt;- tags: List[int]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="29mAoeXJ8vvFscZmVXa0-4">
-          <mxGeometry y="26" width="160" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="29mAoeXJ8vvFscZmVXa0-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="29mAoeXJ8vvFscZmVXa0-4">
-          <mxGeometry y="130" width="160" height="17" as="geometry" />
-        </mxCell>
-        <mxCell id="29mAoeXJ8vvFscZmVXa0-7" value="+ setId()&lt;div&gt;+ setUsername()&lt;/div&gt;&lt;div&gt;+ getUsername()&lt;/div&gt;&lt;div&gt;+ setprofilePictureUrl()&lt;/div&gt;&lt;div&gt;+ getprofilePictureUrl()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="29mAoeXJ8vvFscZmVXa0-4">
-          <mxGeometry y="147" width="160" height="82" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
