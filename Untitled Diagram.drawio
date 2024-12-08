@@ -68,11 +68,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="29mAoeXJ8vvFscZmVXa0-20" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="29mAoeXJ8vvFscZmVXa0-19">
-          <mxGeometry x="-1" relative="1" as="geometry" />
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="90" y="40" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="29mAoeXJ8vvFscZmVXa0-21" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="29mAoeXJ8vvFscZmVXa0-19">
           <mxGeometry x="1" relative="1" as="geometry">
-            <mxPoint x="10" y="-40" as="offset" />
+            <mxPoint x="-80" y="-80" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="29mAoeXJ8vvFscZmVXa0-29" value="has&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.392;entryY=-0.063;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="29mAoeXJ8vvFscZmVXa0-8" target="29mAoeXJ8vvFscZmVXa0-12">
